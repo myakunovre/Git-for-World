@@ -181,7 +181,7 @@ Git хранит таблицу соответствий `хеш → инфор�
 
 
 ```mermaid
-graph LR;
+graph TD;
    untracked -- "git add" --> staged + tracked;
    modified -- "git add" --> staged +  tracked;
    staged + tracked -- "git commit" --> tracked;
